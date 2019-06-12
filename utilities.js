@@ -10,7 +10,12 @@ function toNumber(str) {
   return parseInt(str);
 }
 
-function isStringNumber(str) {}
+function isStringNumber(str) {
+  const num = toNumber(str);
+  const isNum = typeof num === "number";
+  const isNotNaN = !isNaN(num);
+  return isNum && isNotNaN;
+}
 
 function add(a, b) {}
 
