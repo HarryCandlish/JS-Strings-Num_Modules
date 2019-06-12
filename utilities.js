@@ -17,7 +17,9 @@ function isStringNumber(str) {
   return isNum && isNotNaN;
 }
 
-function add(a, b) {}
+function add(a, b) {
+  return a + b;
+}
 
 function addStrings(a, b) {}
 
