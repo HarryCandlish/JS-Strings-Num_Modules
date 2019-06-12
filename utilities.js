@@ -2,7 +2,9 @@ function getType(thing) {
   return typeof thing;
 }
 
-function isNumber(thing) {}
+function isNumber(thing) {
+  return typeof thing === "number";
+}
 
 function toNumber(str) {}
 
