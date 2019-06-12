@@ -21,9 +21,19 @@ function add(a, b) {
   return a + b;
 }
 
-function addStrings(a, b) {}
+function addStrings(a, b) {
+  var n1 = toNumber(a);
+  var n2 = toNumber(b);
+  return String(n1 + n2);
+}
 
-function addStringsOrNumbers(a, b) {}
+function addStringsOrNumbers(a, b) {
+  console.log(a);
+  console.log(b);
+  var n1 = toNumber(a);
+  var n2 = toNumber(b);
+  return a + b;
+}
 
 function isEmail(str) {}
 
