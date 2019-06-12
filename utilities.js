@@ -6,7 +6,9 @@ function isNumber(thing) {
   return typeof thing === "number";
 }
 
-function toNumber(str) {}
+function toNumber(str) {
+  return parseInt(str);
+}
 
 function isStringNumber(str) {}
 
